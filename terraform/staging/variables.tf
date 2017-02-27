@@ -5,7 +5,7 @@ variable "route53_zone_id" {
   default = "Z2AX16QPAN3CV9" # bcdtriptech.com
 }
 variable "golden_image_ami" {
-  default = "ami-c1f515ac"
+  default = "ami-c1f515acasa"
 }
 variable "bcdtriptech_wildcard_cert" {
   default = "arn:aws:acm:us-east-1:076263846157:certificate/211df695-c599-4f03-8f52-bd2b0649f078"

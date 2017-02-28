@@ -16,6 +16,6 @@ module "api_proxy" {
   root_volume_size = "8"
   policy_attachments = "${var.all_instance_policy_attachments}"
 
-  domain_name = "api-proxy"
+  domain_name = "test-api-proxy"
 }
 
